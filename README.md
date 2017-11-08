@@ -2,11 +2,9 @@
 [![Slack](http://community.codedellemc.com/badge.svg)](https://codecommunity.slack.com/messages/symphony)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
-# seed-paqx-parent
+# system-discovery-service-parent
 ## Description
-This project is an application skeleton for a typical Symphony PAQX. You can use it to quickly begin development of a Spring Boot Application PAQX.
-
-The seed app doesn't do much, just has a basic setup to start a Spring Boot Application with some pre-defined configurations for Project Symphony.
+This repository contains the source code for the system discovery service.
 
 ## Documentation
 You can find additional documentation for Project Symphony at [dellemc-symphony.readthedocs.io](https://dellemc-symphony.readthedocs.io).
