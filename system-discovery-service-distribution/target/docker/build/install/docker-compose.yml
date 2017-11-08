@@ -1,0 +1,21 @@
+# Copyright (c) 2017 Dell Inc. or its subsidiaries. All Rights Reserved.
+# Dell EMC Confidential/Proprietary Information
+
+version: '2'
+
+services:
+
+  system-discovery-service:
+    image: IMAGE_NAME_STANDIN:IMAGE_TAG_STANDIN
+    container_name: dell-cpsd-system-discovery-service
+    network_mode: "bridge"
+    extra_hosts:
+      - "postgres:${POSTGRES_HOST}"   
+    ports:
+     - "8088:8088"      # THIS IS A TEMPORARY DEBUG PORT TO BE REMOVED
+    hostname: dell-cpsd-system-discovery-service
+    dns: 172.17.0.1
+    volumes:
+      - /opt/dell/cpsd/system-discovery-service/logs/:/opt/dell/cpsd/system-discovery-service/logs
+      - /etc/rabbitmq:/etc/rabbitmq
+    restart: unless-stopped
