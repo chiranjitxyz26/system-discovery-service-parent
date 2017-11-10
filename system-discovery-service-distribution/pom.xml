@@ -38,6 +38,8 @@
 		<dockerImage.org>cpsd</dockerImage.org>
 		<dockerImage.service>system-discovery-service</dockerImage.service>
 		<dockerImage.tag>latest</dockerImage.tag>
+		<rpm.build.version>1.0.0.0</rpm.build.version>
+        <rpm.build.number>1</rpm.build.number>
 		<maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
 		<exec-maven-plugin.version>1.2.1</exec-maven-plugin.version>
 		<maven-assembly-plugin.version>2.2-beta-5</maven-assembly-plugin.version>
