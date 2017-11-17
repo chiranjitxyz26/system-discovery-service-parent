@@ -18,7 +18,7 @@ import com.dell.cpsd.si.config.PropertiesConfig;
  * </p>
  */
 @Configuration
-@PropertySources({@PropertySource(value = "classpath:META-INF/spring/system-definition/rabbitmq.properties", ignoreResourceNotFound = true),
+@PropertySources({@PropertySource(value = "classpath:META-INF/spring/system-discovery-service/rabbitmq.properties", ignoreResourceNotFound = true),
     @PropertySource(value = "file:${CREDENTIALS}", ignoreResourceNotFound = true),
     @PropertySource(value = "file:${PASSPHRASES}", ignoreResourceNotFound = true)})
 @Primary

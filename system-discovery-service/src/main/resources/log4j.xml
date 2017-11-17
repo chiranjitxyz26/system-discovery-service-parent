@@ -10,7 +10,7 @@
 
     <appender name="errorFileAppender" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="ERROR"/>
-        <param name="File" value="/opt/dell/cpsd/seed-paqx/logs/seed-paqx-error.log"/>
+        <param name="File" value="/opt/dell/cpsd/system-discovery-service/logs/system-discovery-service-error.log"/>
         <param name="MaxFileSize" value="10MB"/>
         <param name="MaxBackupIndex" value="5"/>
         <layout class="org.apache.log4j.PatternLayout">
@@ -20,7 +20,7 @@
 
     <appender name="infoFileAppender" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="INFO"/>
-        <param name="File" value="/opt/dell/cpsd/seed-paqx/logs/seed-paqx-info.log"/>
+        <param name="File" value="/opt/dell/cpsd/system-discovery-service/logs/system-discovery-service-info.log"/>
         <param name="MaxFileSize" value="10MB"/>
         <param name="MaxBackupIndex" value="5"/>
         <layout class="org.apache.log4j.PatternLayout">
@@ -30,7 +30,7 @@
 
     <appender name="debugFileAppender" class="org.apache.log4j.RollingFileAppender">
         <param name="Threshold" value="DEBUG"/>
-        <param name="File" value="/opt/dell/cpsd/seed-paqx/logs/seed-paqx-trace.log"/>
+        <param name="File" value="/opt/dell/cpsd/system-discovery-service/logs/system-discovery-service-trace.log"/>
         <param name="MaxFileSize" value="10MB"/>
         <param name="MaxBackupIndex" value="5"/>
         <layout class="org.apache.log4j.PatternLayout">

@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.dell.cpsd/root-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.dell.cpsd/root-parent)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.dell.cpsd/system-discovery-service-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.dell.cpsd/system-discovery-service-parent)
 [![codecov](https://codecov.io/gh/dellemc-symphony/component-rackhd/branch/master/graph/badge.svg?token=Z6CayoOF8Z)](https://codecov.io/gh/dellemc-symphony/component-rackhd)
 [![Slack](http://community.codedellemc.com/badge.svg)](https://codecommunity.slack.com/messages/symphony)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)

@@ -6,7 +6,7 @@
 
 echo "Removing Dell Inc. System Discovery Service components"
 
-/bin/sh /opt/dell/cpsd/system-definition/image/system-discovery-service/remove.sh
+/bin/sh /opt/dell/cpsd/system-discovery-service/image/system-discovery-service/remove.sh
 
 echo "Dell Inc. System Discovery Service components removal has completed successfully."
 
