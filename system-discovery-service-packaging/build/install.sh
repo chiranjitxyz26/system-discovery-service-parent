@@ -4,13 +4,13 @@
 # Dell EMC Confidential/Proprietary Information
 #
 
-echo "Installing Dell Inc. Seed PAQX components"
+echo "Installing Dell Inc. System Discovery Service components"
 
 RETVAL=0
 
 SERVICE_BASE=/opt/dell/cpsd/system-discovery-service
 
-echo "Installing Dell Inc. Seed PAQX components"
+echo "Installing Dell Inc. System Discovery Service components"
 
 if [ ! -d "$SERVICE_BASE" ]; then
     echo "Could not find directory - [$SERVICE_BASE] does not exist."

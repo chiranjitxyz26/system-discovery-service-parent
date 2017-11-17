@@ -2,7 +2,7 @@
 import pytest
 
 @pytest.fixture(scope='session')
-def seed_local_fixture():
+def system-discovery-service_local_fixture():
     """
     This is a sample local fixture that will return ‘hello world’ variables. 
     """
